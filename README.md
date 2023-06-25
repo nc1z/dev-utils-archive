@@ -14,7 +14,7 @@ A central archive for storing various scripts, templates, and tools that enhance
 
 Each folder contains specific resources relevant to its purpose. Check the respective `README.md` files within each folder for more information about the contents.
 
-```bash
+```
 dev-utils-archive/
   |-- scripts/
   |    |-- language-script_name-script
@@ -25,6 +25,9 @@ dev-utils-archive/
   |    |-- topic
   |    |    |-- template-file
   |    |    |-- README.md
+  |    |    |-- ...
+  |-- guides/
+  |    |    |-- topic-guide.md
   |    |    |-- ...
   |-- docs/
   |    |    |-- CONTRIBUTING.md
