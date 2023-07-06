@@ -3,11 +3,11 @@
 //
 
 // Replace the querySelector with your element
-const buttons = document.querySelectorAll('div[aria-label="Open"]');
+const buttons = document.querySelectorAll('div[aria-label="Open"]')
 
 // Simulate a click on each button
-buttons.forEach(button => {
-  if (button) {
-    button.click();
-  }
-});
+buttons.forEach((button) => {
+    if (button) {
+        button.click()
+    }
+})
